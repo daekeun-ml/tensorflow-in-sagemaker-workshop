@@ -3,7 +3,7 @@
 - Minor한 오타 수정
 - 보충 설명 대폭 추가
 - 솔루션 코드 포함 (원본 버전은 코드 솔루션이 제공되지 않습니다.)
-- TensorFlow 1.14 대응 (원본은 TensorFlow 1.12 대응)
+- TensorFlow 1.14 및 2.0 대응 (원본은 TensorFlow 1.12 대응)
 
 
 ## Introduction
@@ -24,6 +24,7 @@ SageMaker Python SDK에서 TensorFlow를 사용하기 위한 자세한 정보는
 워크샵은 아래 5개의 모듈로 이루어져 있습니다.
 
 1. [Porting a TensorFlow script to run in SageMaker using SageMaker script mode.](0_Running_TensorFlow_In_SageMaker.ipynb)
+    - [Porting a TensorFlow script to run in SageMaker using SageMaker script mode. (TensorFlow 2.0)](0_Running_TensorFlow_In_SageMaker_tf2.ipynb)
 2. [Monitoring your training job using TensorBoard and Amazon CloudWatch metrics.](1_Monitoring_your_TensorFlow_scripts.ipynb)
 3. [Optimizing your training job using SageMaker pipemode input.](2_Using_Pipemode_input_for_big_datasets.ipynb)
 4. [Running a distributed training job.](3_Distributed_training_with_Horovod.ipynb)
